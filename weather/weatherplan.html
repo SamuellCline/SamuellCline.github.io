@@ -33,22 +33,32 @@
     </nav>
     <main>
         <h2><span>Purpose</span></h2>
-        <p><span>The purpose of the <strong><em>Weather Site</em></strong> is to give current weather conditions in 3 different ways. The initial page will give the weather for the current location based on the Geocoding location information from the device. The second is weather for 3 specific locations accessible through a dedicated link, and the third is weather for any location determined by a search string.</span></p>
-        <h2><span>Audience</span></h2>
-        <p><span>Primary audience is adults ages 18-30. Most will be students. Access to the site will be split between mobile devices and laptops. A secondary audience will be anyone interested in weather.</span></p>
-        <h2><span>Audience Goals: </span></h2>
-        <p><span>College students move around quite a bit so one goal would be to quickly get the weather conditions for their current location as they head off to class or study. They are also often far from their homes so the ability to quickly get the conditions for a specific location is important as well. The third goal deals with planning for travels...the ability to get weather conditions for any location will help with last minute packing for road trips.</span></p>
-        <h2><span>Persona</span></h2>
-        <p><span><br/> </span></p>
-        <img src="Imgs/cool-joe.jpg" alt="joe-cool">
-        <ul>
-            <li><strong>Name</strong>: Joe Cool</li>
-            <li><strong>Occupation</strong>: student</li>
-            <li><strong>Age</strong>: Eternally 18</li>
-            <li><strong>Interests</strong>: Traveling, Flying, Play acting, Eating</li>
-            <li><strong>Motivation</strong>: Joe is not into planning. His last minute scrambling, whether it is getting to class in the morning or heading out on his latest adventure, has left him unprepared for weather conditions many times (He is tired of sleeping in the rain and snow). He would like to be more prepared...without having to put much effort into it...or planning.</li>
-            <li><strong>Environment</strong>: Joe is comfortable using laptops and Mobile devices, he will most often be found on a smart phone however. Many of the places he frequents do not have great signal...he is often dealing with 3G speeds</li>
-        </ul>
+        <section>
+            <p><span>The purpose of the <strong><em>Weather Site</em></strong> is to give current weather conditions in 3 different ways. The initial page will give the weather for the current location based on the Geocoding location information from the device. The second is weather for 3 specific locations accessible through a dedicated link, and the third is weather for any location determined by a search string.</span></p>
+        </section>
+        <article>
+            <section>
+                <h2><span>Audience</span></h2>
+                <p><span>Primary audience is adults ages 18-30. Most will be students. Access to the site will be split between mobile devices and laptops. A secondary audience will be anyone interested in weather.</span></p>
+            </section>
+            <section>
+                <h2><span>Audience Goals: </span></h2>
+                <p><span>College students move around quite a bit so one goal would be to quickly get the weather conditions for their current location as they head off to class or study. They are also often far from their homes so the ability to quickly get the conditions for a specific location is important as well. The third goal deals with planning for travels...the ability to get weather conditions for any location will help with last minute packing for road trips.</span></p>
+            </section>
+            <section>
+                <h2><span>Persona</span></h2>
+                <p><span><br/> </span></p>
+                <img src="Imgs/cool-joe.jpg" alt="joe-cool">
+                <ul>
+                    <li><strong>Name</strong>: Joe Cool</li>
+                    <li><strong>Occupation</strong>: student</li>
+                    <li><strong>Age</strong>: Eternally 18</li>
+                    <li><strong>Interests</strong>: Traveling, Flying, Play acting, Eating</li>
+                    <li><strong>Motivation</strong>: Joe is not into planning. His last minute scrambling, whether it is getting to class in the morning or heading out on his latest adventure, has left him unprepared for weather conditions many times (He is tired of sleeping in the rain and snow). He would like to be more prepared...without having to put much effort into it...or planning.</li>
+                    <li><strong>Environment</strong>: Joe is comfortable using laptops and Mobile devices, he will most often be found on a smart phone however. Many of the places he frequents do not have great signal...he is often dealing with 3G speeds</li>
+                </ul>
+            </section>
+        </article>
         <p><span><br/> </span></p>
         <h2><span>Content</span></h2>
         <p><span>All weather pages should include location name, current temperature, forecast high, forecast low, current weather descriptor, forecast percentage of precipitation, and current wind speed and direction on small devices and hourly temps should be added on larger screens. The pages of the <strong><em>Weather Site</em></strong> will be built in the following order:</span></p>
@@ -59,49 +69,64 @@
             <li><strong>Search</strong>: Begins with only a search box, characters entered will cause a list of suggested matches to appear. Selected location will pull up the weather. The search term from the field should be sent to the <a href="https://www.wunderground.com/weather/api/d/docs?d=autocomplete-api&amp;MR=1">WeatherUnderground autocomplete API</a> (https://www.wunderground.com/weather/api/d/docs?d=autocomplete-api&amp;MR=1), and the results used to pull the current conditions for the selected location.</li>
         </ol>
         <p></p>
-        <p><span>Styles</span><span> </span></p>
-        <h3><span>Branding</span></h3>
-        <p>The client provided the following initial concept for a name and logo:</p>
-        <p><strong><em><span>Weather Site </span></em></strong>The name should be bold &amp; italic</p>
-        <img src="/weather/Imgs/logo.jpeg" alt="logo">
-        <p><span>☔</span><span>This logo can also be rendered using a HTML entity - &amp;#9748;</span></p>
-        <h3><span>Typography </span></h3>
-        <p><br /> <strong>Heading Font</strong>: <a href="https://fonts.google.com/specimen/Sansita"><span>Sansita</span></a> From Google Fonts</p>
-        <img src="/weather/Imgs/sanita-alphabet.jpg" alt="sanita-aplpha">
-        <p><strong></strong></p>
-        <p><strong></strong></p>
-        <p><strong>Body Copy Font</strong>: Helvetica</p>
-        <img src="/weather/Imgs/helvetica-alphabet.png" alt="helvetica-alpha">
-        <p><span></span></p>
-        <h3><span>Colors</span></h3>
-        <img src="/weather/Imgs/color-swatches.jpeg" alt="colors">
-        <h3><span>Elements</span></h3>
-        <p>(add title attribute to each anchor)</p>
-        <h3><span>Navigation:</span></h3>
-        <img src="/weather/Imgs/template-nav.jpeg" alt="navtemp">
-        <p><u>Link:normal</u> : #FFF</p>
-        <p><u>Link:visited : #D8F</u></p>
-        <p><u>Link:hover, Link:focus : #0E89D5</u></p>
-        <p><u>Link:active : default (omit from styles)</u></p>
-        <p></p>
-        <h3><span>Opaque rounded content box:</span></h3>
-        <img src="/weather/Imgs/content-box.jpeg" alt="contentbox">
-        <p> background-color: rgba(200,200,200,.6);</p>
-        <p> margin: .2em auto;</p>
-        <p> border: 1px solid;</p>
-        <p> border-radius: 5px;</p>
-        <p><span><br/> </span></p>
-        <p><strong><span></span></strong></p>
-        <h3><span>Wireframes</span></h3>
-        <p></p>
-        <h3><span>Small screen</span></h3>
-        <img src="/weather/Imgs/small-wireframe.jpeg" alt="mobilewireframe">
-        <p></p>
-        <p></p>
-        <p><span><br/> </span></p>
-        <p><strong><span></span></strong></p>
-        <h3><span>Large Screen</span></h3>
-        <img src="/weather/Imgs/large-wireframe.jpeg" alt="largewireframe">
+        <article>
+            <p><span><h2>Styles</h2></span><span> </span></p>
+            <section>
+                <h3><span>Branding</span></h3>
+                <p>The client provided the following initial concept for a name and logo:</p>
+                <p><strong><em><span>Weather Site </span></em></strong>The name should be bold &amp; italic</p>
+                <img src="/weather/Imgs/logo.jpeg" alt="logo">
+                <p><span>☔</span><span>This logo can also be rendered using a HTML entity - &amp;#9748;</span></p>
+            </section>
+            <section>
+                <h3><span>Typography </span></h3>
+                <p><br /> <strong>Heading Font</strong>: <a href="https://fonts.google.com/specimen/Sansita"><span>Sansita</span></a> From Google Fonts</p>
+                <img src="/weather/Imgs/sanita-alphabet.jpg" alt="sanita-aplpha">
+                <p><strong></strong></p>
+            </section>
+            <section>
+                <p><strong>Body Copy Font</strong>: Helvetica</p>
+                <img src="/weather/Imgs/helvetica-alphabet.png" alt="helvetica-alpha">
+                <p><span></span></p>
+            </section>
+            <section>
+                <h3><span>Colors</span></h3>
+                <img src="/weather/Imgs/color-swatches.jpeg" alt="colors">
+            </section>
+            <section>
+                <h3><span>Elements</span></h3>
+                <p>(add title attribute to each anchor)</p>
+            </section>
+            <section>
+                <h3><span>Navigation:</span></h3>
+                <img src="/weather/Imgs/template-nav.jpeg" alt="navtemp">
+                <p><u>Link:normal</u> : #FFF</p>
+                <p><u>Link:visited : #D8F</u></p>
+                <p><u>Link:hover, Link:focus : #0E89D5</u></p>
+                <p><u>Link:active : default (omit from styles)</u></p>
+
+            </section>
+            <section>
+                <h3><span>Opaque rounded content box:</span></h3>
+                <img src="/weather/Imgs/content-box.jpeg" alt="contentbox">
+                <p> background-color: rgba(200,200,200,.6);</p>
+                <p> margin: .2em auto;</p>
+                <p> border: 1px solid;</p>
+                <p> border-radius: 5px;</p>
+
+
+            </section>
+            <section>
+                <h3><span>Wireframes</span></h3>
+                <p></p>
+                <h3><span>Small screen</span></h3>
+                <img src="/weather/Imgs/small-wireframe.jpeg" alt="mobilewireframe">
+
+
+                <h3><span>Large Screen</span></h3>
+                <img src="/weather/Imgs/large-wireframe.jpeg" alt="largewireframe">
+            </section>
+        </article>
     </main>
     <footer>
         &copy;2017 Samuel Cline
