@@ -123,7 +123,7 @@
 
 
 .table {
-    position: static;
+    position:static;
     display: inline-table;
     max-width: 100%;
     min-width: 20px;
