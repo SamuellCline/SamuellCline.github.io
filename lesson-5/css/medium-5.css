@@ -6,7 +6,7 @@
     /* hamburger button does not need to be shown */
     /* show the 10-day forecast with the medium view and up */
     article p.town-article img {
-        width: 62.666%;
+        width: 20%;
         float: right;
     }
     /* responsive images */
@@ -58,61 +58,71 @@
     }
 
     .summary1 {
+        border: 1px solid black;
+        position:sticky;
+        margin:15px;
+        float: left;
         text-align: center;
-        display: block;
-        position: relative;
-        max-width: 33%;
+
+
+
+        /*        max-width: 33%; */
+        min-width: 33%px;
         padding: 10px;
-        box-sizing: border-box;
-        display: inline-block;
 
-        width: 33%;
         border-radius: 5px;
-        margin: 0 auto;
-        clear: both;
-
+        /*margin: 0 auto;*/
+        /*clear: both;*/
+/*        display: block;*/
     }
+
     section.forecast {
+        border: 1px solid black;
+
+        margin:10px;
+        float: left;
         text-align: center;
-        display: inline-block;
-        position: relative;
-        max-width: 33%;
-        min-width: 200px;
+
+
+
+        /*        max-width: 33%; */
+        min-width: 33%px;
         padding: 10px;
-        box-sizing: border-box;
-        width: 33%;
+
         border-radius: 5px;
-        margin: 0 auto;
-        clear: both;
-
-
+        /*margin: 0 auto;*/
+        /*clear: both;*/
+        display: inherit;
     }
 
 
     .article {
+        border: 1px solid black;
+
+        margin:10px;
+        float: left;
         text-align: center;
-        float: right;
-        display: inline-block;
-        position: absolute;
-        max-width: 33%;
+
+
+
+        /*        max-width: 33%; */
+        min-width: 33%px;
         padding: 10px;
-        box-sizing: border-box;
-        display: inline-block;
-        width: 33%;
+
         border-radius: 5px;
-        margin: 0 auto;
-        clear: both;
-
-
-
-
+        /*margin: 0 auto;*/
+        /*clear: both;*/
+        display: block;
     }
+
+
     footer {
-        display: contents;
-        position: absolute;
-        bottom: -80px;
+/*        display: inline;*/
+/*        position: absolute;*/
+/*        bottom: -80px;*/
+/*        position: inherit;*/
 
-        margin: auto;
+/*        margin: 0 auto;*/
 
     }
 
@@ -122,9 +132,9 @@
 
 
 
-.table {
-    position:static;
-    display: inline-table;
+/*.table {
+    position:static;*/
+   /* display: inline-table;
     max-width: 100%;
     min-width: 20px;
     box-sizing: border-box;
@@ -136,7 +146,7 @@
     word-wrap: normal;
     resize: both;
     overflow: auto;
-
+    */
 
 
 
