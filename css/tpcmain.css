@@ -1,0 +1,79 @@
+html{
+    color:white;
+    background-color: black;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+/*    padding: 5px;*/
+    max-width: 100%;
+
+}
+.nav ul {
+    display: flex;
+/*    flex-direction: row;*/
+    text-decoration: none;
+    padding: 0px;
+    width: 100%;
+    background-color: #525252;
+}
+.nav ul li {
+    display: flex;
+    /*    flex-direction: row;*/
+    text-decoration: none;
+    padding: 10px;
+    max-width: 100%;
+/*    border: 2px solid;*/
+}
+.nav ul li:hover {
+    display: flex;
+    /*    flex-direction: row;*/
+    text-decoration: none;
+    padding: 10px;
+    max-width: 100%;
+    background-color: black;
+    /*    border: 2px solid;*/
+}
+
+h1, h2, h3, h4, h5{
+    padding: 5px px;
+    margin: 10px;
+}
+
+div{
+    margin: 10px;
+}
+
+.content{
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+}
+.mac{
+    word-wrap: normal;
+    max-width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+/*    padding: 5px;*/
+    margin: 10px;
+    float: right;
+    max-height: 50%;
+
+
+
+}
+.pc{
+    word-wrap: normal;
+    max-width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+/*    padding: 5px;*/
+    margin: 10px;
+    float: left;
+    max-height: 50%;
+    flex-grow: 2;
+}
