@@ -1,13 +1,21 @@
 html{
     color:white;
     background-color: black;
+    display: flex;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+
 }
 .nav {
     display: flex;
     flex-direction: row;
     text-decoration: none;
 /*    padding: 5px;*/
-    max-width: 100%;
+    width: 100%;
 
 }
 .nav ul {
@@ -54,26 +62,63 @@ div{
     margin: 10px;
 }
 .mac{
+/*    display: flex;*/
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
     word-wrap: normal;
-    max-width: 50%;
+    max-width: 90%;
     border: 1px solid white;
     border-radius: 5px;
 /*    padding: 5px;*/
     margin: 10px;
-    float: right;
+/*    float: right;*/
     max-height: 50%;
+    text-align: center;
 
 
 
+}
+.mac ul li{display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
 }
 .pc{
+/*    display: flex;*/
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
     word-wrap: normal;
-    max-width: 50%;
+    max-width: 90%;
     border: 1px solid white;
     border-radius: 5px;
 /*    padding: 5px;*/
     margin: 10px;
-    float: left;
+/*    float: left;*/
     max-height: 50%;
-    flex-grow: 2;
+/*    flex-grow: 2;*/
+    text-align: center;
 }
+.pc ul li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+/*    border-bottom: 1px solid white;*/
+/*    max-width: 50%;*/
+
+
+
+
+
+}
+
+/*
+.fadeln{
+
+    margin: 0 25%;
+    height: 1px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, black));
+}
+*/

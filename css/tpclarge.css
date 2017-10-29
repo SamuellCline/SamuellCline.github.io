@@ -1,0 +1,26 @@
+@media only screen and (min-width: 50.0em) {
+.mac{
+    word-wrap: normal;
+    max-width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    /*    padding: 5px;*/
+    margin: 10px;
+    float: right;
+    max-height: 50%;
+
+
+
+}
+.pc{
+    word-wrap: normal;
+    max-width: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    /*    padding: 5px;*/
+    margin: 10px;
+    float: left;
+    max-height: 50%;
+    flex-grow: 2;
+}
+}
