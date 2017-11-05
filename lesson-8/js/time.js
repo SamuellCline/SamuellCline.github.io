@@ -1,3 +1,4 @@
+function time(){
 var a = new Date();
 var weekday = new Array(7);
 weekday[0] = "Sunday";
@@ -29,3 +30,4 @@ var m = month[a.getMonth()];
 var y = a.getFullYear();
 var date = d + ", " + d1 + " " + m + " " + y;
 document.getElementById("date").innerHTML = date;
+}
