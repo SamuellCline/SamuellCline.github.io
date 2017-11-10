@@ -2,6 +2,7 @@
 table{
 
     border-collapse: collapse;
+    box-shadow: 10px 10px 15px #628ca6;
 
 }
 td {
