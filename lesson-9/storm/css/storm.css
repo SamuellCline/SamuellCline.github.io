@@ -1,0 +1,50 @@
+
+label {
+    display: block;
+    margin: 8px;
+}
+.boxes{
+
+    display: flex;
+    min-width: 100%;
+/*    flex-basis: auto;*/
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+
+
+
+}
+fieldset{
+
+/*    margin: 3%;*/
+    min-width: 100%;
+}
+form{
+    min-width: 100%;
+
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 90%;
+}
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 100%;
+}
+
+textarea{
+    min-width: 100%;
+    min-height: 90%;
+    margin-top: 3px;
+}
+
+button{
+    margin: 5px;
+    min-width: 100%;
+}

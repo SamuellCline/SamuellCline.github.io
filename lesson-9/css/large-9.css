@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+  article p.town-article img { width: 29.333%; }
+    nav ul {display: inherit;}
+    nav button{
+        display: none;
+    }
+    header img {
+        resize: both;
+        max-height: 100%;
+        max-width: 100%;
+
+    }
+
+}
