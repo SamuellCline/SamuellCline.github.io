@@ -281,3 +281,12 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
     .navigation a {	display: block;		padding: .5rem;	text-align: center;	text-decoration: none;}
 /*    .navigation a:hover {	color: #000; background-color: #777;	}*/
 }
+
+
+
+
+.tablehead  {
+
+ padding 10px;
+}
+
