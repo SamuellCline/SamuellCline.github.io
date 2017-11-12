@@ -1,7 +1,8 @@
-
+*{border: box;}
 label {
     display: block;
     margin: 8px;
+
 }
 .boxes{
 
@@ -14,13 +15,29 @@ label {
 
 
 
+
+}
+span{
+
+}
+legend{
+    background-color: #0E89D5;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
 }
 fieldset{
 
 /*    margin: 3%;*/
     min-width: 100%;
+/*    padding: 5px;*/
+    margin: 5px;
+    min-height: 50%;
+    background-color: #e6e9ed;
+    border-radius: 2px;
 }
 form{
+
     min-width: 100%;
 
 }
@@ -42,9 +59,13 @@ textarea{
     min-width: 100%;
     min-height: 90%;
     margin-top: 3px;
+    border-radius: 2px;
 }
 
 button{
-    margin: 5px;
-    min-width: 100%;
+/*    position: relative;*/
+/*    margin: 5px;*/
+    width: 100%;
+/*    margin-left: 45px;*/
+    border-radius: 5px;
 }
