@@ -75,7 +75,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li.active a {}
+nav ul li.active a {background-color: #0E89D5}
 
 nav ul li a:hover {}
 
@@ -198,6 +198,7 @@ footer > p {}
 .content {
     text-align: justify;
     max-width: 100%;
+    min-width: 100%;
     align-content: center;
     position: relative;
     display: flex;
@@ -290,3 +291,106 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
  padding 10px;
 }
 
+.s1  {
+    border: 1px solid black;
+    display: block;
+    max-width: 100%;
+    margin: 15px;
+    float: left;
+    text-align: center;
+
+    min-width: 100%;
+    padding: 15px;
+
+    border-radius: 5px;
+
+}
+
+.s2  {
+    border: 1px solid black;
+    display: block;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.s3  {
+    border: 1px solid black;
+    display: none;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    min-width: 33%px;
+    padding: 15px;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+
+}
+
+.s4  {
+    border: 1px solid black;
+    display: none;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    min-width: 33%px;
+    padding: 15px;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.s5  {
+    border: 1px solid black;
+    display: none;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    min-width: 33%px;
+    padding: 15px;
+    border-radius: 5px;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.photo img{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    float:left;
+    flex-shrink: 4;
+    flex: auto;
+
+}
+@keyframes bounce {
+
+    60% {
+
+        transform:         translateY(-15px);
+    }
+}
+.s3:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    background-color: #0E89D5
+}
+.s4:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    background-color: #0E89D5
+}
+.s5:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    background-color: #0E89D5
+}

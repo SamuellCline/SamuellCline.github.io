@@ -59,8 +59,8 @@
 
     .summary1 {
         border: 1px solid black;
-        position:sticky;
-        margin:15px;
+        position: sticky;
+        margin: 15px;
         float: left;
         text-align: center;
 
@@ -73,13 +73,13 @@
         border-radius: 5px;
         /*margin: 0 auto;*/
         /*clear: both;*/
-/*        display: block;*/
+        /*        display: block;*/
     }
 
     section.forecast {
         border: 1px solid black;
 
-        margin:15px;
+        margin: 15px;
         float: left;
         text-align: center;
 
@@ -92,7 +92,7 @@
         border-radius: 5px;
         /*margin: 0 auto;*/
         /*clear: both;*/
-        display:inline-flex;
+        display: inline-flex;
         flex-flow: row wrap;
         align-content: center;
         justify-content: center;
@@ -102,7 +102,7 @@
     .article {
         border: 1px solid black;
 
-/*        margin:10px;*/
+        /*        margin:10px;*/
         float: left;
         text-align: center;
 
@@ -110,8 +110,7 @@
 
         /*        max-width: 33%; */
         min-width: 33%px;
-/*        padding: 10px;*/
-
+        /*        padding: 10px;*/
         border-radius: 5px;
         /*margin: 0 auto;*/
         /*clear: both;*/
@@ -120,12 +119,124 @@
 
 
     footer {
-/*        display: inline;*/
-/*        position: absolute;*/
-/*        bottom: -80px;*/
-/*        position: inherit;*/
+        /*        display: inline;*/
+        /*        position: absolute;*/
+        /*        bottom: -80px;*/
+        /*        position: inherit;*/
+        /*        margin: 0 auto;*/
+    }
 
-/*        margin: 0 auto;*/
+    .s1  {
+        border: 1px solid black;
+        display: block;
+        max-width: 60%;
+        margin: 15px;
+        float: left;
+        text-align: center;
+
+        min-width: 60%;
+        padding: 15px;
+
+        border-radius: 5px;
+
+    }
+
+    .s2  {
+        border: 1px solid black;
+        display: block;
+        margin: 15px;
+        float: left;
+        text-align: center;
+        min-width: 20%;
+        max-width: 33%;
+        padding: 15px;
+        border-radius: 5px;
+
+    }
+
+    .s3  {
+        border: 1px solid black;
+        display: block;
+
+        margin: 15px;
+        float: left;
+        text-align: center;
+
+        min-width: 33%px;
+        padding: 15px;
+
+        border-radius: 5px;
+
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    .s4  {
+        border: 1px solid black;
+        display: block;
+
+        margin: 15px;
+        float: left;
+        text-align: center;
+
+        min-width: 33%px;
+        padding: 15px;
+
+        border-radius: 5px;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+
+    }
+    .s5  {
+        border: 1px solid black;
+        display: block;
+
+        margin: 15px;
+        float: left;
+        text-align: center;
+
+        min-width: 33%px;
+        padding: 15px;
+        border-radius: 5px;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+
+    }
+    .photo img{
+        max-width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        float:left;
+        flex-shrink: 4;
+        flex: auto;
+        /*        padding: 5px;*/
+        /*        margin: 5px;*/
+    }
+    @keyframes bounce {
+
+        60% {
+
+            transform:         translateY(-15px);
+        }
+    }
+    .s3:hover {
+        cursor: pointer;
+        animation-name: bounce;
+
+    }
+    .s4:hover {
+        cursor: pointer;
+        animation-name: bounce;
+
+    }
+    .s5:hover {
+        cursor: pointer;
+        animation-name: bounce;
 
     }
 
@@ -133,16 +244,6 @@
 
 
 
-
-
-/*.table {*/
-
-/*    padding-top: 10%;*/
-
-
-
-
-
-    }
-
+    /*.table {*/
+    /*    padding-top: 10%;*/
 }
