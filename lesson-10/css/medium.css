@@ -42,10 +42,12 @@
 
     }
 
+/*
     li a:hover {
         background-color: #0E89D5;
         color: white;
     }
+*/
     .active {
 
         color: white;
@@ -247,3 +249,4 @@
     /*.table {*/
     /*    padding-top: 10%;*/
 }
+/*nav ul li.active a {background-color: #0E89D5}*/

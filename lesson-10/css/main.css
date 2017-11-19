@@ -75,9 +75,11 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li.active a {background-color: #0E89D5}
 
-nav ul li a:hover {}
+
+
+nav ul li a:hover {background-color: #0E89D5;
+    color: white;}
 
 nav button {
 
@@ -394,3 +396,10 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
     animation-name: bounce;
     background-color: #0E89D5
 }
+
+
+
+nav ul li.active a {background-color: #0E89D5;}
+
+
+

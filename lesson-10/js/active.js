@@ -1,3 +1,4 @@
+function act(){
 //remember to add an ID of "mainmenu" to the nav ul
 var urlString = document.location.href;
 var urlArray = urlString.split('/');
@@ -15,3 +16,4 @@ if (pageHREF !=="") {
         } // end if
     } // end of the search for a match
 } // end of if !==
+}
