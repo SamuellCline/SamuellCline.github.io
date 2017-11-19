@@ -27,12 +27,15 @@
         position: relative;
     }
 
+/*
     a {
         display: inline-block;
         padding: 8px;
         background-color: #e6e9ed;
     }
+*/
     nav ul li a {
+        padding: 8px;
         display: inline-block;
         color: #000;
         padding: 8px 16px;
