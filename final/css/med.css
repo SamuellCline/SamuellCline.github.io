@@ -1,0 +1,13 @@
+@media only screen and (min-width: 40.0em) {
+    *{
+        font-family: 'Roboto', sans-serif;
+    }
+fieldset{
+
+/*    margin: 3%;*/
+    min-width: 100%;
+}
+
+
+
+}
