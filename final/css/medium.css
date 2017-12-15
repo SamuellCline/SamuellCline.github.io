@@ -61,6 +61,14 @@
         max-width: 50%;
 
     }
+    .subheading{
+/*        display: block;*/
+/*    align-content: center;*/
+/*    justify-content: center;*/
+/*    position: relative;*/
+/*    padding: 15px;*/
+/*    position:relative;*/
+}
 
     .summary1 {
         border: 1px solid white;

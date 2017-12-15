@@ -35,8 +35,9 @@ fieldset{
 /*    padding: 5px;*/
     margin: 5px;
     min-height: 50%;
-    background-color: #e6e9ed;
+    background-color: #deded7;
     border-radius: 2px;
+    color: black;
 }
 form{
 

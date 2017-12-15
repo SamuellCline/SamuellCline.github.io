@@ -1,8 +1,7 @@
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 /* This wildcard applies to all elements ensuring a box layout model */
@@ -33,10 +32,36 @@ footer {
 }
 
 header {
-    float: left;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+/*    float: left;*/
     padding: 10px;
     color: white;
 
+}
+.pagetitle{
+    display: flex;
+/*    flex-flow: row wrap*/
+    align-content: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-flow: column wrap;
+/*    align-content: center;*/
+/*        justify-content: center;*/
+/*    float: left;*/
+/*    padding: 5px;*/
+    color: white;
+    min-width: 100%;
+}
+.subheading{
+    align-content: center;
+    justify-content: center;
+/*    padding: 15px;*/
+/*    position:relative;*/
 }
 
 /*header h1 {}*/
@@ -49,6 +74,8 @@ header img {
 }
 
 header .subheading {}
+
+
 
 nav {display: flex; flex-direction: column; align-content: center; justify-content: center; max-width: 100%;}
 
@@ -67,21 +94,29 @@ nav ul {
     margin: 0;
     padding: 0;
 /*    width: 200px;*/
-    background-color: #f1f1f1;
+
+    background-color: #0eff3c;
+    color: white;
 }
 
-nav ul li {}
+nav ul li {
+    color: white;
+}
 
 nav ul li a {
     display: block;
-    color: #000;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-nav ul li.active a {}
 
-nav ul li a:hover {}
+
+
+nav ul li a:hover {
+    background-color: #0ebc00;
+    color: white;
+}
 
 nav button {
 
@@ -93,7 +128,12 @@ ul {}
 
 li a {}
 
-main {}
+main {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
 
 main h2 {}
 
@@ -228,6 +268,7 @@ footer > p {}
 .top {
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -245,10 +286,9 @@ placed in a media query in order to accomodate the toggle when in wider view*/
     .navigation.responsive {display: flex; flex-direction: column; align-content: center; justify-content: center; max-width: 100%; position: relative; margin-top: 30px; }
     .navigation.responsive li { background-color: #eee;	display: block;	width: 100%; margin: 2px 0;	border: 1px solid #ddd;}
     .navigation.responsive li a {	padding: 1rem; text-align: center;	display: block; text-decoration:none; }
-    .navigation.responsive li a:hover { background-color: #0E89D5;
+    .navigation.responsive li a:hover { background-color: #0ebc00;
         color: white;}
 }
-
 /* The following can be used in lieu of a button with a HTML entity which may not be dispalyed correctly in all browsers - or a SVG option is good - button size issue
 .hamburger {
 content: "";
@@ -276,4 +316,14 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
     padding: 5px;
     /*        margin: 5px;*/
 }
-nav ul li.active a {background-color: #0E89D5;}
+
+.photo img{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    float:left;
+    flex-shrink: 4;
+    flex: auto;
+
+}
+nav ul li.active a {background-color: #0ebc00;}

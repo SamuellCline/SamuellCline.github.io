@@ -35,7 +35,7 @@ footer {
 
 header {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-content: center;
     justify-content: center;
 /*    float: left;*/
@@ -52,6 +52,9 @@ header {
 .header{
     display: flex;
     flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    margin:5px;
 /*    align-content: center;*/
 /*        justify-content: center;*/
 /*    float: left;*/
@@ -60,8 +63,14 @@ header {
     min-width: 100%;
 }
 .subheading{
-    align-content: center;
-    justify-content: center;
+    display:none;
+/*    align-content: center;*/
+/*    justify-content: center;*/
+/*    position: absolute;*/
+/*    float: left;*/
+/*    max-width: 50%;*/
+/*    margin-top:auto;*/
+    
 /*    padding: 15px;*/
 /*    position:relative;*/
 }
@@ -294,9 +303,9 @@ footer > p {}
 placed in a media query in order to accomodate the toggle when in wider view*/
 @media only screen and (max-width: 37.5em) {
     .navigation.responsive {display: flex; flex-direction: column; align-content: center; justify-content: center; max-width: 100%; position: relative; margin-top: 30px; }
-    .navigation.responsive li { background-color: #eee;	display: block;	width: 100%; margin: 2px 0;	border: 1px solid #ddd;}
+    .navigation.responsive li { background-color: #0eff3c;	display: block;	width: 100%; margin: 2px 0;	border: 1px solid #ddd;}
     .navigation.responsive li a {	padding: 1rem; text-align: center;	display: block; text-decoration:none; }
-    .navigation.responsive li a:hover { background-color: #0E89D5;
+    .navigation.responsive li a:hover { background-color: #0ebc00;
         color: white;}
 }
 
@@ -438,5 +447,10 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
 
 nav ul li.active a {background-color: #0ebc00; color: white;}
 
-
+.iframe{
+        padding:0px;
+        margin: 0px;
+        width:100%;
+        min-width: 350px;
+}
 

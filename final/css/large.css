@@ -13,6 +13,17 @@
 
     }
 
+    .subheading{
+    display:block;
+/*    align-content: center;*/
+/*    justify-content: center;*/
+/*    position: relative;*/
+/*    float: left;*/
+    max-width: 50%;
+    
+/*    padding: 15px;*/
+/*    position:relative;*/
+}
 }
 
 /*nav ul li.active a {background-color: #0E89D5}*/
