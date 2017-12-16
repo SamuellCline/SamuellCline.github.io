@@ -369,7 +369,8 @@ nav ul li.active a {background-color: #0ebc00;}
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    min-height: 100%;
+    min-height: 60%;
+    max-height: 60%;
 
 }
 
