@@ -70,7 +70,7 @@ header {
 /*    float: left;*/
 /*    max-width: 50%;*/
 /*    margin-top:auto;*/
-    
+
 /*    padding: 15px;*/
 /*    position:relative;*/
 }
@@ -379,7 +379,7 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
+    color:yellow;
 
 }
 
@@ -395,7 +395,7 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-
+    color:yellow;
 }
 .s5  {
     border: 1px solid white;
@@ -409,6 +409,7 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    color:yellow;
 
 }
 .photo img{
@@ -430,17 +431,17 @@ box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
 .s3:hover {
     cursor: pointer;
     animation-name: bounce;
-    background-color: #0E89D5
+    background-color: #0ebc00
 }
 .s4:hover {
     cursor: pointer;
     animation-name: bounce;
-    background-color: #0E89D5
+    background-color: #0ebc00
 }
 .s5:hover {
     cursor: pointer;
     animation-name: bounce;
-    background-color: #0E89D5
+    background-color: #0ebc00
 }
 
 
@@ -452,5 +453,10 @@ nav ul li.active a {background-color: #0ebc00; color: white;}
         margin: 0px;
         width:100%;
         min-width: 350px;
+}
+
+
+.register1 a{
+    color:#0ebc00;
 }
 

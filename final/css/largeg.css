@@ -27,5 +27,16 @@
         width: 100%;
         height: 100%;
     }
+    .subheading{
+        display:block;
+        /*    align-content: center;*/
+        /*    justify-content: center;*/
+        /*    position: relative;*/
+        /*    float: left;*/
+        max-width: 50%;
+
+        /*    padding: 15px;*/
+        /*    position:relative;*/
+    }
 
 }
